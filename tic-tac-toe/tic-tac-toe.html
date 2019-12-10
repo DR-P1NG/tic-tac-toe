@@ -1,0 +1,43 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Tic Tac Toe</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="text-center title">
+			<h1>Tic Tac Toe</h1>
+
+			<!-- Reset active player, claimed cells and the board -->
+			<button id="reset" type="button" class="btn btn-primary">Reset</button>
+			<p class="active-player-text"> Active Player: X </p>
+		</div>
+
+		<!-- Tic Tac Toe Board -->
+		<div class="row">
+			<div id="1" class="cell col-xs-4"></div>
+			<div id="2" class="cell middle-cell col-xs-4"></div>
+			<div id="3" class="cell col-xs-4"></div>
+		</div>
+		<div class="row">
+			<div id="4" class="cell side-cell col-xs-4"></div>
+			<div id="5" class="cell center-cell col-xs-4"></div>
+			<div id="6" class="cell side-cell col-xs-4"></div>
+		</div>
+		<div class="row">
+			<div id="7" class="cell col-xs-4"></div>
+			<div id="8" class="cell middle-cell col-xs-4"></div>
+			<div id="9" class="cell col-xs-4"></div>
+		</div>
+	</div>
+
+
+	<!-- includede JavaScript files -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- my JavaScript -->
+	<script src="js/tic-tac-toe.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.cell {
+	min-height: 3em;
+	min-width: 3em;
+	border-width: 5px;
+	border-color: rgb(212,175,55);
+	background-color: lightblue;
+	font-size: 400%;
+	text-align: center;
+	padding-top: .75em;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.center-cell {
+	border-style: solid;
+
+}
+
+.side-cell {
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+
+.middle-cell {
+	border-right-style: solid;
+	border-left-style: solid;
+}
+
+.title {
+	margin-bottom: 1.5em;
+}
+
+.active-player-text {
+	text-align: center;
+	font-size: 30px;
+}
+
+.center {
+	margin: 0 auto;
+}
